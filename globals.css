@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+:root {
+	--color-1: #2f3033;
+	--color-2: #fb8cf9;
+}
+
+body {
+	background-image: url('/adolemala.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: inherit;
+	background-attachment: fixed;
+}
+
+
+
+header {
+	width: 70%;
+	padding: 10px 20px 10px 20px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background-color: white;
+	margin: auto;
+	box-shadow: rgba(0, 0, 0, 0.22) 0px 0px 30px 10px;
+  border-radius: 1em;
+
+	
+}
+
+main {
+	width: 70%;
+	min-height: 100vh;
+	background-color: none;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	
+}
+
+header img {
+	height: 70px;
+}
+
+ul {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+li {
+	list-style: none;
+	padding: 0 20px 0 20px;
+}
+
+a {
+	/* text-decoration: none;
+	font-size: larger;
+	font-weight: 400;
+	color: #fff;
+	transition: 0.5s; */
+
+  display: flex;
+    color: #392f5aff;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+	/* text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 16px #fb8cf9,
+		0 0 18px #fb8cf9, 0 0 22px #fb8cf9, 0 0 32px #fb8cf9, 0 0 42px #fb8cf9; */
+
+    background-color: #f4d06fff;
+    color: #392f5aff;
+    border-radius: 1em;
+}
+
+
+.footer {
+	background-color: white;
+	position: block;
+	bottom: 0;
+	color: black;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin: auto;
+}
